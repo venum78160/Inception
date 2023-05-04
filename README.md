@@ -1,9 +1,9 @@
 # Inception
 
 Glossaire:
-Docker : Docker est une plateforme de virtualisation légère qui permet d'exécuter des applications dans des conteneurs isolés. Les conteneurs permettent d'encapsuler une application avec toutes ses dépendances dans un environnement isolé et portable.
+**Docker** : Docker est une plateforme de virtualisation légère qui permet d'exécuter des applications dans des conteneurs isolés. Les conteneurs permettent d'encapsuler une application avec toutes ses dépendances dans un environnement isolé et portable.
 
-Docker-compose : Docker-compose est un outil qui permet de définir et de lancer des applications multi-conteneurs. Il permet de définir les services, les réseaux et les volumes de l'application dans un fichier YAML et de les lancer avec une seule commande.
+**Docker-compose** : Docker-compose est un outil qui permet de définir et de lancer des applications multi-conteneurs. Il permet de définir les services, les réseaux et les volumes de l'application dans un fichier YAML et de les lancer avec une seule commande.
 
 Alpine Linux : Alpine Linux est une distribution Linux minimaliste conçue pour être utilisée dans des conteneurs Docker. Elle est très légère et rapide, ce qui la rend idéale pour les applications qui nécessitent des temps de démarrage rapides.
 
