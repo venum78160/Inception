@@ -1,5 +1,17 @@
 # Inception
 
+
+Installer Docker sur votre machine.
+Créer un répertoire pour votre projet.
+Créer un fichier Dockerfile pour chaque conteneur que vous devez créer. Un Dockerfile est un fichier texte qui décrit les étapes nécessaires pour créer une image Docker.
+Construire les images Docker à partir de ces fichiers en utilisant la commande docker build.
+Créer un réseau Docker pour que les conteneurs puissent communiquer entre eux.
+Créer les conteneurs Docker en utilisant les images que vous avez construites.
+Configurer les volumes pour stocker les données de votre base de données et les fichiers de votre site WordPress.
+Configurer les conteneurs pour utiliser les volumes et le réseau que vous avez créés.
+Lancer les conteneurs en utilisant la commande docker run.
+Accéder à votre site WordPress en utilisant l'adresse IP du conteneur NGINX.
+
 ## Glossaire:
 - **Docker** : Docker est une plateforme de virtualisation légère qui permet d'exécuter des applications dans des conteneurs isolés. Les conteneurs permettent d'encapsuler une application avec toutes ses dépendances dans un environnement isolé et portable.
 
