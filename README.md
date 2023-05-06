@@ -13,7 +13,7 @@ Lancer les conteneurs en utilisant la commande docker run.
 Accéder à votre site WordPress en utilisant l'adresse IP du conteneur NGINX.
 
 ## Env:
-- **DOMAIN_NAME : Cette variable stocke le nom de domaine pour le projet. Dans cet exemple, elle est définie en fonction de votre nom d'utilisateur pour l'infrastructure de l'école 42 (42.fr).
+- **DOMAIN_NAME** : Cette variable stocke le nom de domaine pour le projet. Dans cet exemple, elle est définie en fonction de votre nom d'utilisateur pour l'infrastructure de l'école 42 (42.fr).
 
 - **CERT_** : Cette variable stocke le chemin du certificat SSL pour le projet. Le certificat SSL permet d'établir une connexion sécurisée entre le serveur et le client.
 
