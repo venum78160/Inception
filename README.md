@@ -12,6 +12,21 @@ Configurer les conteneurs pour utiliser les volumes et le réseau que vous avez 
 Lancer les conteneurs en utilisant la commande docker run.
 Accéder à votre site WordPress en utilisant l'adresse IP du conteneur NGINX.
 
+## Env:
+- **DOMAIN_NAME : Cette variable stocke le nom de domaine pour le projet. Dans cet exemple, elle est définie en fonction de votre nom d'utilisateur pour l'infrastructure de l'école 42 (42.fr).
+
+- **CERT_** : Cette variable stocke le chemin du certificat SSL pour le projet. Le certificat SSL permet d'établir une connexion sécurisée entre le serveur et le client.
+
+- **KEY_** : Cette variable stocke le chemin de la clé privée pour le certificat SSL. La clé privée permet de déchiffrer les données cryptées échangées entre le serveur et le client.
+
+- **DB_NAME** : Cette variable stocke le nom de la base de données utilisée par WordPress.
+
+- **DB_ROOT** : Cette variable stocke le mot de passe pour le compte root de la base de données.
+
+- **DB_USER** : Cette variable stocke le nom d'utilisateur pour la base de données.
+
+- **DB_PASS** : Cette variable stocke le mot de passe pour l'utilisateur de la base de données.
+
 ## Glossaire:
 - **Docker** : Docker est une plateforme de virtualisation légère qui permet d'exécuter des applications dans des conteneurs isolés. Les conteneurs permettent d'encapsuler une application avec toutes ses dépendances dans un environnement isolé et portable.
 
