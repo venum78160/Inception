@@ -1,0 +1,106 @@
+[   259.574] 
+X.Org X Server 1.20.11
+X Protocol Version 11, Revision 0
+[   259.574] Build Operating System: linux Debian
+[   259.575] Current Operating System: Linux debian 5.10.0-22-amd64 #1 SMP Debian 5.10.178-3 (2023-04-22) x86_64
+[   259.575] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.10.0-22-amd64 root=UUID=746944cd-408f-402b-8d78-b242a6429403 ro quiet
+[   259.576] Build Date: 23 March 2023  10:25:56AM
+[   259.576] xorg-server 2:1.20.11-1+deb11u6 (https://www.debian.org/support) 
+[   259.577] Current version of pixman: 0.40.0
+[   259.577] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   259.577] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   259.579] (==) Log file: "/home/vl-hotel/.local/share/xorg/Xorg.0.log", Time: Sun May  7 20:10:09 2023
+[   259.580] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   259.580] (==) No Layout section.  Using the first Screen section.
+[   259.580] (==) No screen section available. Using defaults.
+[   259.580] (**) |-->Screen "Default Screen Section" (0)
+[   259.580] (**) |   |-->Monitor "<default monitor>"
+[   259.580] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[   259.580] (==) Automatically adding devices
+[   259.580] (==) Automatically enabling devices
+[   259.580] (==) Automatically adding GPU devices
+[   259.580] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   259.580] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[   259.580] 	Entry deleted from font path.
+[   259.580] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[   259.580] 	Entry deleted from font path.
+[   259.580] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[   259.580] 	Entry deleted from font path.
+[   259.580] (WW) The directory "/usr/share/fonts/X11/Type1" does not exist.
+[   259.580] 	Entry deleted from font path.
+[   259.580] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[   259.580] 	Entry deleted from font path.
+[   259.580] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[   259.580] 	Entry deleted from font path.
+[   259.580] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	built-ins
+[   259.580] (==) ModulePath set to "/usr/lib/xorg/modules"
+[   259.580] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[   259.580] (II) Loader magic: 0x560141c6ce40
+[   259.580] (II) Module ABI versions:
+[   259.580] 	X.Org ANSI C Emulation: 0.4
+[   259.580] 	X.Org Video Driver: 24.1
+[   259.580] 	X.Org XInput driver : 24.1
+[   259.580] 	X.Org Server Extension : 10.0
+[   259.582] (++) using VT number 1
+
+[   259.583] (EE) systemd-logind: TakeControl failed: Only owner of session may take control
+[   259.584] (II) xfree86: Adding drm device (/dev/dri/card0)
+[   259.591] (--) PCI:*(0@0:2:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xe0000000/16777216, 0xf0000000/2097152, I/O @ 0x0000d010/16, BIOS @ 0x????????/131072
+[   259.591] (II) LoadModule: "glx"
+[   259.591] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   259.592] (II) Module glx: vendor="X.Org Foundation"
+[   259.592] 	compiled for 1.20.11, module version = 1.0.0
+[   259.592] 	ABI class: X.Org Server Extension, version 10.0
+[   259.592] (==) Matched vmware as autoconfigured driver 0
+[   259.592] (==) Matched modesetting as autoconfigured driver 1
+[   259.592] (==) Matched fbdev as autoconfigured driver 2
+[   259.592] (==) Matched vesa as autoconfigured driver 3
+[   259.592] (==) Assigned the driver to the xf86ConfigLayout
+[   259.592] (II) LoadModule: "vmware"
+[   259.592] (II) Loading /usr/lib/xorg/modules/drivers/vmware_drv.so
+[   259.622] (II) Module vmware: vendor="X.Org Foundation"
+[   259.622] 	compiled for 1.20.8, module version = 13.3.0
+[   259.622] 	Module class: X.Org Video Driver
+[   259.622] 	ABI class: X.Org Video Driver, version 24.1
+[   259.622] (II) LoadModule: "modesetting"
+[   259.623] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[   259.623] (II) Module modesetting: vendor="X.Org Foundation"
+[   259.623] 	compiled for 1.20.11, module version = 1.20.11
+[   259.623] 	Module class: X.Org Video Driver
+[   259.623] 	ABI class: X.Org Video Driver, version 24.1
+[   259.623] (II) LoadModule: "fbdev"
+[   259.623] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[   259.623] (II) Module fbdev: vendor="X.Org Foundation"
+[   259.623] 	compiled for 1.20.0, module version = 0.5.0
+[   259.623] 	Module class: X.Org Video Driver
+[   259.623] 	ABI class: X.Org Video Driver, version 24.0
+[   259.623] (II) LoadModule: "vesa"
+[   259.623] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[   259.623] (II) Module vesa: vendor="X.Org Foundation"
+[   259.623] 	compiled for 1.20.9, module version = 2.5.0
+[   259.623] 	Module class: X.Org Video Driver
+[   259.623] 	ABI class: X.Org Video Driver, version 24.1
+[   259.623] (II) vmware: driver for VMware SVGA: vmware0405, vmware0710
+[   259.623] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[   259.623] (II) FBDEV: driver for framebuffer: fbdev
+[   259.623] (II) VESA: driver for VESA chipsets: vesa
+[   259.623] (EE) 
+Fatal server error:
+[   259.624] (EE) xf86OpenConsole: Cannot open virtual console 1 (Permission denied)
+[   259.625] (EE) 
+[   259.625] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[   259.628] (EE) Please also check the log file at "/home/vl-hotel/.local/share/xorg/Xorg.0.log" for additional information.
+[   259.629] (EE) 
+[   259.629] (WW) xf86CloseConsole: KDSETMODE failed: Bad file descriptor
+[   259.629] (WW) xf86CloseConsole: VT_GETMODE failed: Bad file descriptor
+[   259.629] (EE) Server terminated with error (1). Closing log file.
